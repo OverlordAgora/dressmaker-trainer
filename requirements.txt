@@ -1,0 +1,12 @@
+# Dressmaker Trainer - Windows desktop runtime
+PySide6==6.8.1
+pywin32==308
+pydantic==2.10.4
+numpy==2.2.1
+opencv-python==4.10.0.84
+keyboard==0.13.7
+pyautogui==0.9.54
+loguru==0.7.3
+tomli==2.2.1
+pytest==8.3.4
+pytest-asyncio==0.25.2
