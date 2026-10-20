@@ -1,0 +1,30 @@
+# Dressmaker Trainer default profile - educational use only.
+
+[profiles.default]
+
+[profiles.default.capture]
+backend = "win32"
+region = [0, 0, 1920, 1080]
+fps_cap = 60
+
+[[profiles.default.processors]]
+name = "pattern_detector"
+enabled = true
+params = { threshold = 140, min_area = 900 }
+
+[[profiles.default.processors]]
+name = "stitch_mapper"
+enabled = true
+params = { grid = 24.0, max_targets = 6 }
+
+[[profiles.default.drivers]]
+name = "overlay"
+enabled = true
+params = { enabled = true }
+
+[[profiles.default.drivers]]
+name = "log"
+enabled = true
+params = { verbose = false }
+</content>
+</｜｜DSML｜｜ parameter>
